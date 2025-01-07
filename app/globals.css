@@ -1,0 +1,39 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Add this at the end of your globals.css file */
+.prose {
+  max-width: 100%;
+}
+
+.prose a {
+  color: #6b46c1;
+  text-decoration: none;
+}
+
+.prose a:hover {
+  text-decoration: underline;
+}
+
+.prose h1, .prose h2, .prose h3, .prose h4, .prose h5, .prose h6 {
+  color: #4a5568;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+.prose code {
+  background-color: #f7fafc;
+  border-radius: 0.25rem;
+  padding: 0.2em 0.4em;
+  font-size: 0.875em;
+}
+
+.prose pre {
+  background-color: #2d3748;
+  color: #e2e8f0;
+  overflow-x: auto;
+  padding: 1em;
+  border-radius: 0.5rem;
+}
+
